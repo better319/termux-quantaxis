@@ -1,5 +1,5 @@
 # termux-quantaxis
-
+![image](https://github.com/better319/termux-quantaxis/blob/master/pic/Screenshot_2018-07-27-08-02-06-590_com.termux.png)
 
 
 termux-ubuntu安装：https://github.com/Neo-Oli/termux-ubuntu
