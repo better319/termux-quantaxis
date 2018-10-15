@@ -29,8 +29,10 @@ apt-get install cython
 apt-get install libxml2-dev libxslt-dev
 apt-get install python3-lxml python3-pillow python3-tk
 pip3 install jupyter
-
-
+pip3 install cython
+apt-get install freetds-dev
+pip3 install pymssql
+pip3 install sqlalchemy
 pip3 install quantaxis
 
 
