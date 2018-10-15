@@ -25,6 +25,7 @@ apt-get install python3-dev
 apt-get install python3-scipy
 pkg install pkg-config
 apt install libpng-dev libfreetype6-dev
+apt-get install cython
 apt-get install libxml2-dev libxslt-dev
 apt-get install python3-lxml python3-pillow python3-tk
 pip3 install jupyter
