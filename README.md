@@ -3,8 +3,11 @@
 
 
 termux-ubuntu安装：https://github.com/Neo-Oli/termux-ubuntu
+
 wget https://raw.githubusercontent.com/better319/termux-quantaxis/master/Termux_install_Ubuntu18.sh
+
 mongodb安装及启动
+
 https://www.linuxidc.com/Linux/2018-05/152253.htm
 
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
