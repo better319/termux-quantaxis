@@ -3,7 +3,7 @@
 
 
 termux-ubuntu安装：https://github.com/Neo-Oli/termux-ubuntu
-
+wget https://raw.githubusercontent.com/better319/termux-quantaxis/master/Termux_install_Ubuntu18.sh
 mongodb安装及启动
 https://www.linuxidc.com/Linux/2018-05/152253.htm
 
