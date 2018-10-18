@@ -1,41 +1,37 @@
-echo 'INSTALL_QUANTAXIS'
-echo 'USING ALIYUN deb'
-
-echo "deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties
-deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted multiverse universe #Added by software-properties
-deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted multiverse universe #Added by software-properties
-deb http://mirrors.aliyun.com/ubuntu/ xenial universe
-deb http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
-deb http://mirrors.aliyun.com/ubuntu/ xenial multiverse
-deb http://mirrors.aliyun.com/ubuntu/ xenial-updates multiverse
-deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse #Added by software-properties
-deb http://archive.canonical.com/ubuntu xenial partner
-deb-src http://archive.canonical.com/ubuntu xenial partner
-deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
-deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiverse universe #Added by software-properties
-deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
-deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse " | tee /etc/apt/sources.list.d/sources.list  
-
-apt-get update
-
-apt-get install python3-dev
-apt-get install python3-scipy
-pkg install pkg-config
-apt install libpng-dev libfreetype6-dev
-apt-get install cython
-apt-get install libxml2-dev libxslt-dev
-apt-get install python3-lxml python3-pillow python3-tk
-pip3 install jupyter
-pip3 install cython
-apt-get install freetds-dev
-pip3 install pymssql
-pip3 install sqlalchemy
-pip3 install quantaxis
-
-apt-get install mongodb
+echo 'INSTALL_QUANTAXIS' 
+echo 'USING ALIYUN deb' 
+echo "deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties 
+deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted 
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted multiverse universe #Added by software-properties 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted 
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted multiverse universe #Added by software-properties 
+deb http://mirrors.aliyun.com/ubuntu/ xenial universe 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates universe 
+deb http://mirrors.aliyun.com/ubuntu/ xenial multiverse 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates multiverse 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse 
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse #Added by software-properties 
+deb http://archive.canonical.com/ubuntu xenial partner 
+deb-src http://archive.canonical.com/ubuntu xenial partner 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted 
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiverse universe #Added by software-properties 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe 
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse " | tee /etc/apt/sources.list.d/sources.list 
+apt-get update 
+apt-get install python3-dev 
+apt-get install python3-scipy 
+pkg install pkg-config 
+apt install libpng-dev libfreetype6-dev 
+apt-get install cython 
+apt-get install libxml2-dev libxslt-dev 
+apt-get install python3-lxml python3-pillow python3-tk 
+pip3 install jupyter 
+pip3 install cython 
+apt-get install freetds-dev 
+pip3 install pymssql 
+pip3 install sqlalchemy 
+pip3 install quantaxis 
+apt-get install mongodb 
 
 
 
