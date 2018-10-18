@@ -35,6 +35,19 @@ pip3 install pymssql
 pip3 install sqlalchemy
 pip3 install quantaxis
 
+apt-get install mongodb
+
+
+
+
+
+
+
+
+
+
+
+
 
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 # Ubuntu 16.04
