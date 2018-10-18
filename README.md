@@ -3,8 +3,14 @@
 
 
 termux-ubuntu安装：https://github.com/Neo-Oli/termux-ubuntu
+apt-get install wget
+apt-get dos2unix
 
 wget https://raw.githubusercontent.com/better319/termux-quantaxis/master/Installubuntu18.sh
+
+dos2unix Installubuntu18.sh
+
+bash Installubuntu18.sh
 
 mongodb安装及启动
 
