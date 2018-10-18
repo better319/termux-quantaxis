@@ -19,7 +19,7 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse " | tee /etc/apt/sources.list.d/sources.list 
 apt-get update 
 apt-get install python3-dev 
-apt-get install python3-scipy 
+apt-get install python3-numpy  python3-pandas python3-matplotlib python3-scipy python3-sklearn
 pkg install pkg-config 
 apt install libpng-dev libfreetype6-dev 
 apt-get install cython 
