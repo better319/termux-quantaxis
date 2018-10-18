@@ -26,12 +26,12 @@ apt-get install cython
 apt-get install libxml2-dev libxslt-dev 
 apt-get install python3-lxml python3-pillow python3-tk 
 apt-get install python3-pip 
-pip3 install jupyter 
-pip3 install Cython 
+pip3 install jupyter -i https://pypi.doubanio.com/simple 
+pip3 install Cython -i https://pypi.doubanio.com/simple  
 apt-get install freetds-dev 
-pip3 install pymssql 
-pip3 install sqlalchemy 
-pip3 install quantaxis 
+pip3 install pymssql -i https://pypi.doubanio.com/simple 
+pip3 install sqlalchemy -i https://pypi.doubanio.com/simple 
+pip3 install quantaxis -i https://pypi.doubanio.com/simple 
 apt-get install mongodb 
 
 
