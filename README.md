@@ -3,8 +3,10 @@
 
 
 termux-ubuntu安装：https://github.com/Neo-Oli/termux-ubuntu
+
 apt-get install wget
-apt-get dos2unix
+
+apt-get install dos2unix
 
 wget https://raw.githubusercontent.com/better319/termux-quantaxis/master/Installubuntu18.sh
 
@@ -37,7 +39,8 @@ mongo
 
 不要修改默认ubuntu的源
 
-注意 python3 的utf-8编码的处理  
+注意 python3 的utf-8编码的处理 
+ 
 https://www.cnblogs.com/qhlblog/p/8622109.html
 
 https://blog.csdn.net/paullinjie/article/details/52081747
