@@ -37,6 +37,21 @@ mongo
 
 然后进入/VAR/LIB/mongodb#mongo启动
 
+
+-----------备用
+rm /var/lib/mongodb/mongod.lock
+
+cd /usr/bin/
+
+./mongod --dbpath /var/lib/mongodb/ --logpath /var/lib/mongodb/mongodb.log --logappend &
+
+然后进入/VAR/LIB/mongodb#mongo启动
+
+
+
+
+
+
 不要修改默认ubuntu的源
 
 注意 python3 的utf-8编码的处理 
