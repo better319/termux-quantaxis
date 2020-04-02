@@ -38,7 +38,9 @@ mongo
 然后进入/VAR/LIB/mongodb#mongo启动
 
 
------------备用
+-----------备用------
+
+
 rm /var/lib/mongodb/mongod.lock
 
 cd /usr/bin/
