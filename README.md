@@ -40,6 +40,7 @@ mongo
 
 -----------备用------
 
+下面这个是正确步骤：
 
 rm /var/lib/mongodb/mongod.lock
 
@@ -47,11 +48,14 @@ cd /usr/bin/
 
 ./mongod --dbpath /var/lib/mongodb/ --logpath /var/lib/mongodb/mongodb.log --logappend &
 
+cd /var/lib/mongodb
+
+mongo
+
+
 然后进入/VAR/LIB/mongodb#mongo启动
 
-
-
-
+---------------------------------
 
 
 不要修改默认ubuntu的源
